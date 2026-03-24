@@ -1,6 +1,6 @@
 # Compound Knowledge for GitHub Copilot
 
-Workflows for knowledge work that compounds over time. Rebuilt for [GitHub Copilot](https://github.com/features/copilot) from the original [Compound Knowledge Plugin](https://github.com/rettde/compound-knowledge-plugin) for Claude Code.
+Workflows for knowledge work that compounds over time. Rebuilt for [GitHub Copilot](https://github.com/features/copilot) from the original [Compound Knowledge Plugin](https://github.com/EveryInc/compound-knowledge-plugin) by [Every, Inc.](https://every.to) for Claude Code.
 
 Read the story: [How to Build a Command Center That Keeps You Sane](https://every.to/p/the-agent-that-saved-my-brain)
 
