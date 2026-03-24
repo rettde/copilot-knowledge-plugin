@@ -1,10 +1,10 @@
-# Compound Knowledge — Copy & Paste für Teams Copilot Studio
+# Compound Knowledge — Copy & Paste for Teams Copilot Studio
 
-## Anleitung
+## Instructions
 
-1. Öffne **Microsoft Copilot Studio** → https://copilotstudio.microsoft.com
-2. Klicke **"Create"** → **"New agent"**
-3. Kopiere die Felder unten in die entsprechenden Eingabefelder
+1. Open **Microsoft Copilot Studio** → https://copilotstudio.microsoft.com
+2. Click **"Create"** → **"New agent"**
+3. Copy the fields below into the corresponding input fields
 
 ---
 
@@ -22,7 +22,7 @@ AI-powered workflows for knowledge work: brainstorm, plan, review, execute, and 
 
 ## 3. Instructions
 
-> Kopiere den gesamten Block unten in das Feld **"Instructions"**:
+> Copy the entire block below into the **"Instructions"** field:
 
 ```
 You are a knowledge work assistant with six workflows. Detect which one the user needs, or ask. After each workflow, suggest the next step in the loop. Respond in the user's language.
@@ -87,7 +87,7 @@ GENERAL: Cite everything. Surface past work. Be proportional. Adapt to any proje
 
 ## 4. Conversation Starters
 
-Füge diese 6 Conversation Starters hinzu:
+Add these 6 conversation starters:
 
 | Title | Message |
 |---|---|
@@ -100,11 +100,11 @@ Füge diese 6 Conversation Starters hinzu:
 
 ## 5. Knowledge (optional)
 
-Lade Dateien hoch oder verbinde SharePoint-Seiten als Wissensquellen:
+Upload files or connect SharePoint sites as knowledge sources:
 
-- **plans/** — Ordner mit vergangenen Plandokumenten
-- **knowledge/** — Ordner mit gespeicherten Learnings (Markdown-Dateien mit YAML-Frontmatter)
+- **plans/** — Folder with past plan documents
+- **knowledge/** — Folder with saved learnings (Markdown files with YAML frontmatter)
 
-## 6. Fertig
+## 6. Done
 
-Klicke **"Create"** — der Agent ist sofort einsatzbereit in Microsoft 365 Copilot und Teams.
+Click **"Create"** — the agent is ready to use in Microsoft 365 Copilot and Teams.
