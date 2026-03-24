@@ -1,0 +1,55 @@
+{
+  "$schema": "https://aka.ms/json-schemas/copilot/declarative-agent/v1.2/schema.json",
+  "version": "v1.2",
+  "name": "Compound Knowledge",
+  "description": "AI-powered workflows for knowledge work: brainstorm, plan, review, execute, and save learnings. Knowledge compounds.",
+  "instructions": "$[file('instructions.md')]",
+  "conversation_starters": [
+    {
+      "title": "Brainstorm",
+      "text": "Brainstorm: I need to think through our Q2 content strategy. Here's what I know so far..."
+    },
+    {
+      "title": "Plan",
+      "text": "Plan: Structure a campaign plan for the upcoming product launch"
+    },
+    {
+      "title": "Confidence check",
+      "text": "Confidence: How confident are we in the current approach? What gaps exist?"
+    },
+    {
+      "title": "Review",
+      "text": "Review: Check this plan for strategic alignment and data accuracy before I share it"
+    },
+    {
+      "title": "Execute",
+      "text": "Work: Execute the plan and produce the deliverables"
+    },
+    {
+      "title": "Save learnings",
+      "text": "Compound: Extract and save what we learned from this session"
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "WebSearch"
+    },
+    {
+      "name": "GraphicArt"
+    },
+    {
+      "name": "CodeInterpreter"
+    },
+    {
+      "name": "OneDriveAndSharePoint",
+      "items_by_url": [
+        {
+          "url": "https://${{SHAREPOINT_DOMAIN}}/sites/${{SHAREPOINT_SITE}}/Shared Documents/knowledge"
+        },
+        {
+          "url": "https://${{SHAREPOINT_DOMAIN}}/sites/${{SHAREPOINT_SITE}}/Shared Documents/plans"
+        }
+      ]
+    }
+  ]
+}

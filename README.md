@@ -147,6 +147,10 @@ If your project doesn't have custom instructions, the workflows still work — t
 | Plugin marketplace     | Claude Code plugin registry    | Copy `.github/` directory into project   |
 | Pipeline mode          | `disable-model-invocation`     | Not applicable                           |
 
+## M365 Copilot Agent
+
+There's also a version for **Microsoft 365 Copilot** as a Declarative Agent. It consolidates all 6 workflows into a single agent that you deploy via Teams Toolkit. See [`m365-agent/README.md`](m365-agent/README.md) for setup and deployment instructions.
+
 ## License
 
 MIT

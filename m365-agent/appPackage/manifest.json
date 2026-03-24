@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "id": "${{TEAMS_APP_ID}}",
+  "version": "1.0.0",
+  "developer": {
+    "name": "Compound Knowledge",
+    "websiteUrl": "https://github.com/rettde/copilot-knowledge-plugin",
+    "privacyUrl": "https://github.com/rettde/copilot-knowledge-plugin/blob/main/PRIVACY.md",
+    "termsOfUseUrl": "https://github.com/rettde/copilot-knowledge-plugin/blob/main/LICENSE"
+  },
+  "name": {
+    "short": "Compound Knowledge",
+    "full": "Compound Knowledge — AI workflows for knowledge work"
+  },
+  "description": {
+    "short": "Brainstorm, plan, review, execute, and save learnings. Knowledge compounds.",
+    "full": "AI-powered workflows for knowledge work that compounds over time. Six workflows form a loop: brainstorm to capture and organize thinking, plan to structure actionable plans grounded in past learnings, confidence to gut-check what you know, review for strategic alignment and data accuracy, work to execute plans and produce deliverables, and compound to save learnings for next time. Each cycle makes the next one faster."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#4F46E5",
+  "copilotAgents": {
+    "declarativeAgents": [
+      {
+        "id": "compoundKnowledge",
+        "file": "declarativeAgent.json"
+      }
+    ]
+  },
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}
