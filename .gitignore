@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~
+
+# Project-specific (these are created by the workflows in user projects, not in this repo)
+# plans/
+# docs/knowledge/
