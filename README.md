@@ -149,7 +149,7 @@ If your project doesn't have custom instructions, the workflows still work — t
 
 ## M365 Copilot Agent
 
-There's also a version for **Microsoft 365 Copilot** as a Declarative Agent. It consolidates all 6 workflows into a single agent that you deploy via Teams Toolkit. See [`m365-agent/README.md`](m365-agent/README.md) for setup and deployment instructions.
+There's also a version for **Microsoft 365 Copilot**. It consolidates all 6 workflows into a single agent you can paste directly into [Copilot Studio](https://copilotstudio.microsoft.com). See [`M365-COPILOT-AGENT.md`](M365-COPILOT-AGENT.md) for the ready-to-copy instructions.
 
 ## License
 
